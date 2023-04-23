@@ -1,0 +1,9 @@
+{
+  "name": "devops-course",
+  "service_type": "frontend",
+  "dockerfile": {
+    "pre_install_commands": [
+      "COPY myfile myfile"
+    ]
+  }
+}
